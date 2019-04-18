@@ -45,7 +45,7 @@ export class TabComponent {
 
   // 关闭选项标签
   closeUrl(url: string) {
-    // 当前关闭的是第几个路由
+    // 当前关闭的是第几个路由 
     const index = this.menuList.findIndex(p => p.url === url);
     // 如果只有一个不可以关闭
     // if (this.menuList.length === 1) {
